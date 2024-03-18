@@ -1,0 +1,85 @@
+.dashboard-management-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header-text {
+  text-align: center;
+}
+.msg-div {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+}
+.icon {
+  color: rgb(40, 115, 214);
+  width: 50px;
+  height: 20px;
+}
+.assign-alert {
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 0.5px solid rgb(207, 199, 199);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.dashboard-management-table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+.dashboard-management-table th,
+.dashboard-management-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.dashboard-management-table th {
+  background-color: #f0f0f0;
+  text-align: center;
+  width: 300px;
+}
+
+.dashboard-management-table td {
+  text-align: center;
+}
+
+.dashboard-management-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  padding: 16px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dashboard-management-button:hover {
+  background-color: #0056b3;
+}
+.dashboard-management-button-remove {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  padding: 16px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dashboard-management-button-remove:hover {
+  background-color: #b60606;
+}
+
+/* .action-buttons {
+  width: fit-content;
+} */

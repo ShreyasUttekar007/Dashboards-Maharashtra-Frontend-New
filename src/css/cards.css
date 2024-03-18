@@ -1,0 +1,129 @@
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.card {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.image {
+  height: 170px;
+  width: 300px;
+  padding: 10px;
+}
+
+.imggg {
+  height: 100px;
+  width: 100px;
+  margin: 15px 10px;
+}
+.btttn {
+  background-color: #00aaff;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  font-weight: 500;
+}
+.btttn:hover {
+  background-color: #045bbe;
+  cursor: pointer;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  font-weight: 500;
+}
+.delete-btttn {
+  background-color: #f70404;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  font-weight: 500;
+}
+.delete-btttn:hover {
+  background-color: #b60606;
+  cursor: pointer;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  font-weight: 500;
+}
+.footer {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.logout-btn{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.btn{
+  background-color: #00aaff;
+  padding: 15px;
+  color: #ffffff;
+  width: max-content;
+  font-size: 16px;
+  border: none;
+  font-weight: 500;
+}
+.btn:hover{
+  background-color: #045bbe;
+  padding: 15px;
+  color: #ffffff;
+  width: max-content;
+  font-size: 16px;
+  border: none;
+  font-weight: 500;
+}
+h3 {
+  margin: 0px;
+}
+.header-img{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media only screen and (max-width: 380px) {
+  .cards {
+    max-width: 100%;
+  }
+  .head{
+    flex-direction: column;
+  }
+  .image {
+    max-width: 100%;
+    max-width: 100%;
+  }
+}
